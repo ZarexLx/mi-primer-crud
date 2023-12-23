@@ -29,5 +29,7 @@ urlpatterns = [
     path("tasks/<int:task_id>/completado",views.completado_task, name='completado_task'),
     path("tasks/<int:task_id>/eliminado",views.eliminado_task, name='eliminado_task'),
     path("logout/",views.CerrarSesion , name='logout'),
-    path("signin/",views.signin , name='signin'),  
+    path("signin/",views.signin , name='signin'),
+    
+    
 ]
